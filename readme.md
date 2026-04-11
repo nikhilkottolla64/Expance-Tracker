@@ -15,7 +15,11 @@ A simple and user-friendly Expense Tracker application built using HTML, CSS, an
 
 ---
 
+<<<<<<< HEAD
 ## Technologies Used
+=======
+##  Technologies Used
+>>>>>>> 488ca92 (add readme)
 
 - HTML
 - CSS
@@ -24,7 +28,11 @@ A simple and user-friendly Expense Tracker application built using HTML, CSS, an
 
 ---
 
+<<<<<<< HEAD
 ##  Project Structure 
+=======
+##  Project Structure
+>>>>>>> 488ca92 (add readme)
 
 ---
 
@@ -64,6 +72,13 @@ A simple and user-friendly Expense Tracker application built using HTML, CSS, an
 
 ---
 
+<<<<<<< HEAD
 ## Author
 
 Developed by **Nikhil**
+=======
+##  Author
+
+Developed by **Nikhil**
+
+>>>>>>> 488ca92 (add readme)
