@@ -23,12 +23,9 @@ A simple and user-friendly Expense Tracker application built using HTML, CSS, an
 - CSS
 - JavaScript 
 - localStorage API
-
----
-
+ 
 ##  Project Structure 
-=======
-
+<p>New code</p>
 ##  How to Run the Project
 
 1. Download or clone the repository  

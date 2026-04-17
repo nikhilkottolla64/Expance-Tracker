@@ -27,10 +27,14 @@ function addTransaction(e) {
   if (text.value.trim() === '' || amount.value.trim() === '') {
     alert('Please add a text and amount');
   } else {
+    let amt = parseFloat(amount.value);
+    if (document.getElementById('category').value === 'expense' && amt > 0) {
+      amt = -amt;
+    }
     const transaction = {
       id: generateID(),
       text: text.value,
-      amount: +amount.value,
+      amount: amt,
       category: document.getElementById('category').value
     };
 
@@ -111,7 +115,7 @@ function updateLocalStorage() {
 // Init app
 function init() {
   list.innerHTML = '';
-  const selectedCategory = document.getElementById('filter').value;
+  const selectedCategory = +document.getElementById('filter').value;
   const filteredTransactions = selectedCategory === 'all' ? transactions :
    transactions.filter(t => t.category === selectedCategory);
 
