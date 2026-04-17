@@ -13,9 +13,6 @@ A simple and user-friendly Expense Tracker application built using HTML, CSS, an
 -  Filter transactions by category
 -  Real-time balance, income, and expense calculation
 
----
-
-## Technologies Used
 =======
 ##  Technologies Used
 
